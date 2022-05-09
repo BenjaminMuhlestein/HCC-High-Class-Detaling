@@ -1,0 +1,55 @@
+video{
+    height: 100%;
+    width: 100%;
+    object-position: cover;
+    position: fixed;
+    left: 0;
+    right: 300px;
+    top: 0;
+    bottom: 0;
+    z-index: -1; 
+    transition-delay: 1ms;
+}
+header{ 
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 54px;
+    text-align: center;
+    color: white;
+}
+
+li {
+    display:inline-block;
+    list-style: none;
+    padding: .5em
+}
+a {
+    display:inline-block;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    
+    
+}
+nav {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    display:inline-block;
+    width: 100%;
+    z-index: -1;
+    
+}
+a:hover{
+    background-color: crimson;
+    transition: all 0.30s ease 0s;
+    color:#ffffff;  
+    
+  }
+  
+
+  
